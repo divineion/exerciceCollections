@@ -13,7 +13,6 @@ public class TestPaquet {
 		
 		try (Scanner scanner = new Scanner(System.in)) {
 			System.out.print("Entrez une valeur de carte entre 1 (As) et 13 (Roi) :");
-			//TODO handle InputMismatchExc
 			try {
 				int valeur = scanner.nextInt();
 				System.out.print("Entrez une couleur de carte (\"pique\", \"coeur\", \"carreau\" ou \"trefle\") :");
